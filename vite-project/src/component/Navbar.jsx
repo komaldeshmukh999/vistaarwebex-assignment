@@ -4,7 +4,7 @@ import { CiShoppingCart } from "react-icons/ci";
 import { IoIosSearch } from "react-icons/io";
 import { TfiAlignJustify } from "react-icons/tfi";
 import { IoMdClose } from "react-icons/io";
-import logo from "../assets/logo.png"; // Keep your logo if you plan to use it
+import logo from "../assets/logo.png";
 
 export default function Navbar() {
   const [openlist, setOpenList] = useState(false);
@@ -20,7 +20,11 @@ export default function Navbar() {
       {/* -------- Big Screen Navbar -------- */}
       <div className="hidden md:flex bg-white gap-48 justify-center items-center h-[94px]">
         {/* Logo */}
-        <div className="flex">Atulya Karigri</div>
+  <div className="flex items-center text-2xl font-bold tracking-wide bg-gradient-to-r from-[#FFD700] to-[#6D001D] bg-clip-text text-transparent">
+  Atulya Karigari
+</div>
+
+
 
         {/* Menu Items */}
         <div className="flex gap-26 justify-center items-center">

@@ -49,12 +49,32 @@ export default function ShopByOcassion() {
       </div>
 
       {/* Button */}
-      <div className="text-center">
-             <button className="bg-[#1F4A5C] hover:bg-[#2A5A6E] text-white font-semibold px-12 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 my-8">
-            Explore
-          </button>
-            
-      </div>
+      <div className="flex justify-center align-center">
+    <button className="
+  bg-[#1F4A5C] 
+  text-white 
+  font-extrabold 
+  px-14 
+  py-6 
+  rounded-full 
+  border-4 
+  border-[#1F4A5C] 
+  shadow-2xl 
+  text-1xl
+  tracking-wide
+  transition-all 
+  duration-300 
+  hover:bg-white 
+  hover:text-[#1F4A5C] 
+  hover:shadow-1xl 
+  transform 
+  hover:scale-115
+  w-30
+  h-10
+">
+ Explore
+</button>
+</div>
     </div>
   );
 }
