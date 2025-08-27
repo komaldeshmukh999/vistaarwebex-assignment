@@ -28,10 +28,10 @@ export default function NavbarBigScreen() {
 
         {/* Nav Links */}
         <ul className="flex gap-8 items-center text-sm text-[#686868] font-medium">
-          <li><a href="#">HANDLOOM</a></li>
-          <li><a href="#">SHOP BY OCCASION</a></li>
-          <li><a href="#">CRAFT STORIES</a></li>
-          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#"><p className="whitespace-nowrap">HANDLOOM</p></a></li>
+          <li><a href="#"><p className="whitespace-nowrap">SHOP BY OCCASION</p></a></li>
+          <li><a href="#"><p className="whitespace-nowrap">CRAFT STORIES</p></a></li>
+          <li><a href="#"><p className="whitespace-nowrap">ABOUT US</p></a></li>
         </ul>
 
         {/* Right Section */}

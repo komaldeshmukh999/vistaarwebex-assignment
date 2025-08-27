@@ -20,7 +20,7 @@ export default function Navbar() {
       {/* -------- Big Screen Navbar -------- */}
       <div className="hidden md:flex bg-white gap-48 justify-center items-center h-[94px]">
         {/* Logo */}
-  <div className="flex items-center text-2xl font-bold tracking-wide bg-gradient-to-r from-[#FFD700] to-[#6D001D] bg-clip-text text-transparent">
+  <div className="flex items-center text-2xl font-bold tracking-wide bg-gradient-to-r from-[#FFD700] to-[#6D001D] bg-clip-text text-transparent whitespace-nowrap">
   Atulya Karigari
 </div>
 
@@ -30,10 +30,10 @@ export default function Navbar() {
         <div className="flex gap-26 justify-center items-center">
           <div>
             <ul className="flex gap-8 items-center md:text-sm text-[#686868]">
-              <li><a>HANDLOOM</a></li>
-              <li><a>SHOP BY OCASSION</a></li>
-              <li><a>CRAFT STORIES</a></li>
-              <li><a>ABOUT US</a></li>
+              <li className="whitespace-nowrap"><a>HANDLOOM</a></li>
+              <li className="whitespace-nowrap"><a>SHOP BY OCASSION</a></li>
+              <li className="whitespace-nowrap"><a>CRAFT STORIES</a></li>
+              <li className="whitespace-nowrap"><a>ABOUT US</a></li>
             </ul>
           </div>
 
